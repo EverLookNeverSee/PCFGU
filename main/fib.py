@@ -11,3 +11,13 @@ def fibonacci(n: int) -> int:
         return 1
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
+
+
+# Testing
+if __name__ == '__main__':
+    print(f"fibonacci(1) = {fibonacci(1)}")
+    print(f"fibonacci(2) = {fibonacci(2)}")
+    print(f"fibonacci(10) = {fibonacci(10)}")
+    print(f"fibonacci(20) = {fibonacci(20)}")
+    print(f"fibonacci(30) = {fibonacci(30)}")
+    print(f"fibonacci(40) = {fibonacci(40)}")
