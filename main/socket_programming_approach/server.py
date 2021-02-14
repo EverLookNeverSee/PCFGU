@@ -27,3 +27,7 @@ def fib_handler(client):
             resp = str(result).encode("ascii") + b"\n"
             client.send(resp)
     print("closed")
+
+
+# setting port
+fibonacci_server(("", 25000))
