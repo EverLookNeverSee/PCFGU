@@ -2,7 +2,7 @@
 
 # import relevant modules
 from socket import *
-from ..fib import fibonacci
+from main.fib import fibonacci
 
 
 def fibonacci_server(address):
